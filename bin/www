@@ -5,7 +5,7 @@
  */
 
 var app = require('../app');
-var debug = require('debug')('nutanixchallenge-server:server');
+var debug = require('debug')('shivom-server:server');
 var http = require('http');
 
 /**

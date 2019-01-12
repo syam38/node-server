@@ -3,7 +3,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var cors = require('cors');
-var repo = require('./routes/repo');
+var repo = require('./routes/main_route');
 
 var app = express();
 var mongoose = require('mongoose');
