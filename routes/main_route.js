@@ -14,7 +14,7 @@ let db = new sqlite3.Database('./db/shivom.db', (err) => {
   });
 
 
-let count = `SELECT chromosome, COUNT(chromosome) as varinats FROM genome GROUP BY chromosome;`;
+let count = `SELECT chromosome, COUNT(chromosome) as variants FROM genome GROUP BY chromosome;`;
 
 
 router.get('/data', function(req, res, next) {
